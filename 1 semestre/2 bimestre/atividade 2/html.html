@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="global">
+        <h1 id="texto">Sem alterar</h1>
+        <button onclick="alterar()">Alterar</button>
+        <br> <br>
+        Informações Pessoais:
+        <br> <br>
+        <button onclick="mostrar()">Mostrar</button>
+        <br> <br>
+        <div id="nome" style="display: none;">
+            Nome: João Victor
+        </div>
+        <br>
+        <div id="idade" style="display: none;">
+            Idade: 18
+        </div>
+        <br>
+        <div id="cpf" style="display: none;">
+            CPF: 013.246.949-98
+        </div>
+        <br>
+        <div id="telefone" style="display: none;">
+            Telefone: (44)997420056
+            <br> <br>
+            <button onclick="hide()">Esconder</button>
+        </div>
+        <div id="notas">
+            Notas
+            <form action=""> <fieldset>
+                <legend>Selecione Uma Matéria:</legend> <br>
+                <select name="materias" id="materias">
+                    <option value="materia1">ALGORITMOS E FUNDAMENTOS DE PROGRAMACAO DE COMPUTADORES</option>
+                    <option value="materia2">ARQUITETURA E ORGANIZACAO DE COMPUTADORES</option>
+                    <option value="materia3">FUNDAMENTOS DE PROGRAMACAO PARA INTERNET</option>
+                    <option value="materia4">LEGISLACAO APLICADA A TECNOLOGIA DA INFORMACAO</option>
+                </select><br><br>
+            </form></fieldset>
+            <br>
+            <button onclick="mostrarNotas()">Mostrar</button>
+            <br> <br>
+            Nota: <br>
+            <div style="font-size: larger;" id="nota"></div>
+        </div>
+        <br> <br>
+        <button onclick="clicou()">Não click</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

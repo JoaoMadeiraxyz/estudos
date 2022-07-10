@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade</title>
+</head>
+<body style="background-color: rgb(79, 54, 40);">
+    <div name="global">
+        <h1>CSS: Bordas e Posicionamento</h1>
+        <p>Podemos utilizar CSS para modificar nossos textos com <br> 
+        bordas, cores, tamanhos e diversas fontes.</p>
+        <p class="solido">Este texto por exemplo tem uma borda do tipo solid</p>
+        <p class="pontilhado">Já este texto tem uma borda do tipo dotted</p>
+        <p class="dupla">E esta tem uma borda do tipo double</p>
+        <p class="inset">E esta tem uma borda do tipo inset</p>
+        <p class="overlined">Podemos também modificar o texto de diversas formas</p>
+        <p class="underlined">Podemos também modificar o texto de diversas formas</p>
+        <p class="riscado">Podemos também modificar o texto de diversas formas</p>
+        <p>Podemos também editar o tamanho </p>
+        <p>Podemos por exemplo aumentar a altura de uma imagem</p>
+        <button id="button1" style="display: block;" onclick="aumentar()">
+            aumentar
+        </button>
+        <button id="button2" style="display: none;" onclick="normalizar()">
+            normalizar
+        </button>
+        <br> <br> <br>
+        <img 
+        src="james-khashchuk-yEn3TIRAEFI-unsplash.jpg"
+        id="normal"
+        class="normal"
+        style="
+        display: 
+        block;
+        height: 20%;
+        max-width: 50%;
+        left: 25%;
+        position: relative;">
+        <img 
+        src="james-khashchuk-yEn3TIRAEFI-unsplash.jpg"
+        id="aumentada"
+        class="alta"
+        style="
+        display: 
+        none;
+        height: 800px;
+        width: 50%;
+        left: 25%;
+        position: relative;">
+
+        <h2>História Do HTML</h2>
+
+        <img 
+        src="html logo.png"
+        class="float">
+        <p>O HTML é uma linguagem de marcação. Estas linguagens são constituídas de códigos que delimitam conteúdos específicos, segundo uma sintaxe própria. O HTML tem códigos para criar paginas na web. Estes códigos que definem o tipo de letra, qual o tamanho, cor, espaçamento, e vários outros aspectos do site. No início era muito complicado aprender HTML, pois eram muitos comandos para fazer algo simples. A cada nova versão, o HTML fica mais fácil de utilizar, e adquire mais funções. Atualmente qualquer pessoa pode acessar a internet a aprender a construir um site básico em questão de horas, seguindo os passos de tutoriais e aprendendo as funções de cada código.</p>
+        <p>O HTML foi a primeira linguagem de nível mundial, porem não é a única. Existem muitas outras linguagens destinadas á criação de paginas da web, porém o HTML ainda prevalece. Atualmente já é possível integrar varias linguagens na mesma pagina da Web, sendo possível usar duas ou mais linguagens no mesmo site.</p>
+        <p>Para criar e editar códigos em HTML é necessário qualquer editor de texto comum, como bloco de notas. Para testar os códigos, basta salvar o arquivo em formato .HTML e executar. Para o teste é necessário ter um navegador configurado como padrão. Não é necessária internet, pois o arquivo com os códigos esta na maquina onde esta sendo executado.</p>
+
+        <br><br>
+
+        <h2>História do JavaScript</h2>
+
+        <img 
+        src="javascript logo.png"
+        class="float">
+        <p>O JavaScript foi criado na década de 90 por Brendan Eich a serviço da Netscape. Essa década foi um período de revolução, pois os browsers ainda eram estáticos. O navegador mais popular dessa época era o Mosaic, da NCSA.</p>
+        <p>A Netscape foi fundada em 1994 para explorar a Web que estava surgindo. Foi então criado o Netscape Navigator. Em pouco tempo, este se tornou o browser dominante nessa década. Muitos desenvolvedores da NCSA foram designados no projeto do Navigator.</p>
+        <p>A Netscape chegou à conclusão que a web teria que se tornar mais dinâmica, pois o Navigator tinha sempre que fazer uma requisição ao servidor para obter uma resposta no navegador. Em 1995, a Netscape contratou Brendan Eich para criar uma linguagem que proporcionasse isso.</p>
+        <p>A proposta inicial era a implementação da linguagem Scheme, baseada em LISP, puramente funcional, no Navigator. Porém a Netscape tinha projetos anteriores em conjunto com a Sun Microsystems para colocar sua mais recente e promissora linguagem de programação, o Java, no Navigator. Isso elevou uma discussão interna do motivo de ter duas linguagens.</p>
+        <p>Obviamente predominou a escolha de uma única linguagem com a sintaxe baseada em Java. O argumento foi que o Scheme, por ter uma sintaxe e complexidade características de linguagens funcionais, se tornaria impopular. O objetivo da Netscape com a nova linguagem era exatamente o oposto.</p>
+        <p>Mesmo com sintaxe “javanesa” e com outras características do Java (valores primitivos e objetos), o JavaScript logo de início sofreu a influência funcional do Scheme, e mais tarde de linguagens como o Self (protótipos), Perl e Python (Strings, arrays e expressões regulares).</p>
+        <p>Para defender o JavaScript contra outras propostas, um protótipo foi criado por Eich em dez dias, em Maio de 1995. Marc Andreesen nomeou o protótipo de Mocha. O nome da linguagem mudou de novo para LiveScript por causa de patentes e porque vários produtos estavam levando o “Live” como sufixo.</p>
+
+        <h2>História do CSS</h2>
+
+        <img 
+        src="css logo.png"
+        class="float">
+        <p>O Cascading Style Sheets (CSS) foi proposto pela primeira vez em Outubro de 1994, por Hakon Lie, que queria facilitar a programação de sites, que na época era muito mais complexa. As pessoas tinham que utilizar mais códigos para chegar a um resultado simples, como criar uma tabela.</p>
+        <p>Em 1995 o CSS1 foi desenvolvido pela W3C, um grupo de empresas do ramo da informática. A linguagem de estilos ganhou muito destaque entre 1997 e 1999, neste período ficou conhecido por grande parte dos programadores.</p>
+        <p>No inicio, o HTML era a única linguagem utilizada para criar sites. Quando começou a ganhar popularidade, algumas tags (comandos) foram criadas pelos navegadores para facilitar o uso da linguagem; Para facilitar ainda mais a criação destes layouts, a W3C (World Wide Web Consortium) criou o CSS, colocando a disposição dos Webdesigners.</p>
+        <p>O CSS é uma linguagem que determina a aparência (layout) de paginas para a Web. Este programa permite ao usuário criar paginas da Web com códigos mais fáceis de elaborar que os códigos HTML. Estes códigos permitem fazer as aplicações com facilidade.</p>
+        <p>Este programa é utilizado pelos programadores em todo o mundo. O CSS controla as opções de margem, linhas, cores, alturas, larguras, imagens e posicionamento, sem necessidade de programar em HTML.  O CSS tem também alguns códigos prontos, permitindo aos usuários pouparem tempo criando códigos muito comuns.</p>
+
+        <img 
+        src="unipar.png"
+        style="
+        position: sticky;
+        bottom: 0%;
+        right: 0%;
+        height: 15%;
+        width: 15%;
+        float: inline-start;">
+        <script>
+            var button1 = document.getElementById('button1');
+            var button2 = document.getElementById('button2');
+            var imgNormal = document.getElementById('normal');
+            var imgAumentada = document.getElementById('aumentada');
+            function aumentar() {
+                button1.style.display = 'none';
+                button2.style.display = 'block';
+                imgNormal.style.display = 'none';
+                imgAumentada.style.display = 'block';
+            }
+            function normalizar() {
+                button1.style.display = 'block';
+                button2.style.display = 'none';
+                imgNormal.style.display = 'block';
+                imgAumentada.style.display = 'none';
+            }
+        </script>
+    </div>
+</body>
+</html>

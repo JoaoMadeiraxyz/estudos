@@ -1,0 +1,112 @@
+h1{
+    text-align: center;
+    margin: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 
+    dashed 
+    red;
+    border-width: 2px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    color: white;
+}
+h2{
+    text-align: center;
+    margin: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+p{
+    text-align: center;
+    color: rgb(184, 180, 180);
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    text-transform: capitalize;
+}
+
+p.solido{
+    border: 
+    solid
+    2px
+    blue;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 2px;
+}
+
+p.pontilhado{
+    border: 
+    dotted
+    2px
+    blue;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 2px;
+}
+
+p.dupla{
+    border: 
+    double
+    4px
+    blue;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 2px;
+}
+
+p.inset{
+    border: 
+    inset
+    2px
+    blue;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 2px;
+}
+
+p.overlined{
+    color: red;
+    text-decoration: overline;
+}
+
+p.underlined{
+    color: green;
+    text-decoration: underline;
+}
+
+p.riscado{
+    color: blue;
+    text-decoration: line-through;
+}
+
+button{
+    text-align: center;
+    font-size: larger;
+    position: absolute;
+    left: 30%;
+    right: 30%;
+}
+
+img.float{
+    float: left;
+    max-width: 10%;
+    max-height: 10%;
+}
